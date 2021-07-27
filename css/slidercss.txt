@@ -1,0 +1,49 @@
+#slider_wrapper .slider{
+    width: 100%;
+    overflow: hidden;
+}
+
+#slider_wrapper ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+}
+
+#slider_wrapper ul li{
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    width: 100%;
+    position: relative;
+}
+
+#slider_wrapper ul li img{
+    width: 100%;
+    display: block;
+}
+
+.alc{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#slider_wrapper ul li .alc{
+    text-align: center;
+}
+
+#slider_wrapper .toleft{
+    position: absolute;
+    left: -40px;
+    top: 30%;
+}
+
+#slider_wrapper .toright{
+    position: absolute;
+    right: -40px;
+    top: 30%;
+}

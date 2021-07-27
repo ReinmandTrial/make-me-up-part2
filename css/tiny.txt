@@ -1,0 +1,15 @@
+p.justifyleft {text-align:left}
+
+p.justifyright{text-align:right}
+
+p.justifyfull{text-align:justify}
+
+img.justifyleft {
+float:left;
+margin: 5px 10px 5px 0px
+} 
+
+img.justifyright {
+float:right;
+margin: 5px 0px 5px 10px
+}
