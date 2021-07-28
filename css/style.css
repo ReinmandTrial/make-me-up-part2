@@ -688,3 +688,308 @@ header .header__top .header__top-right{
     text-decoration: line-through;
     margin-right: 10px;
 }
+
+#latest{
+    padding: 40px 0;
+}
+
+
+#latest .slider .item{
+    width: 330px;
+    height: 466px;
+    position: relative;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#latest .slider .item .item_top{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#latest .slider .item .item_top span{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    z-index: 5;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #020202;
+    display: block;
+    padding: 2px 10px;
+}
+
+#latest .slider .item .item_top .buttons_block{
+    position: absolute;
+    bottom: 31px;
+    left: 19px;
+    z-index: 5;
+}
+
+#latest .slider .item .item_top .buttons_block a{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.06);
+    width: 62px;
+    height: 62px;
+    border-radius: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+#latest .slider .item .item_top .buttons_block a:hover{
+    background: #FEEBE7;
+    box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.06);
+}
+
+#latest .slider .item .producttitle{
+    padding: 20px 0 10px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 134.88%;
+    text-transform: uppercase;
+    color: #1B1B1B;
+    display: block;
+    text-align: center;
+}
+
+#latest .slider .item .price{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #15161A;
+    display: block;
+    text-align: center;
+}
+
+#latest .slider .item .price .old{
+    text-decoration: line-through;
+}
+
+#news{
+    background: url('../images/back4.png') bottom center no-repeat #FEEBE7;
+    padding: 20px 0;
+}
+
+#news .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#news .wrapper .item{
+    width: 464px;
+
+}
+
+#news .wrapper .item .image img{
+    width: 100%;
+}
+
+#news .wrapper .item .image{
+    height: 259px;
+    overflow: hidden;
+}
+
+#news .wrapper .item .flex{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background: #FFFFFF;
+}
+
+#news .wrapper .item .flex a{
+    display: flex;
+    flex: none;
+    width: 93px;
+    height: 93px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.1;
+    border-right: 1px solid #000000;
+}
+
+#news .wrapper .item .flex .info{
+    padding: 22px 35px;
+    text-align: right;
+}
+
+#news .wrapper .item .flex .info .title{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #15161A;
+}
+
+#news .wrapper .item .flex .info .desc{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #868686;
+    text-align: right;
+}
+
+#news .buttons{
+    padding: 50px 0 70px;
+    text-align: center;
+}
+
+a.button{
+    display: inline-block;
+    padding: 13px 35px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #1B1B1B;
+    border: 1px solid #1B1B1B;
+    box-sizing: border-box;
+}
+
+
+#news2{
+    padding: 90px 0 30px;
+    position: relative;
+}
+
+#news2 .center{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#news2 .mainblock{
+    width: 340px;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+#news2 .mainblock .title{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #15161A;
+    margin-bottom: 35px;
+}
+
+#news2 .mainblock .controls{
+
+}
+
+#news2 .mainblock .controls .tl,#news2 .mainblock .controls .tr{
+    width: 62px;
+    height: 62px;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 62px;
+    border: 1px solid #ECECEC;
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+#news2 .slider_wrapper{
+    width: calc(100% - 390px);
+}
+
+#news2 .slider .item{
+    width: 335px;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+#news2 .slider .item:last-child{
+    margin-left: 0;
+}
+
+#news2 .slider .item img{
+    display: block;
+    width: 100%;
+}
+
+#news2 .slider .item .image{
+    height: 240px;
+    overflow: hidden;
+}
+
+#news2 .slider .item .flex{
+    text-align: right;
+    padding: 24px 30px 30px;
+    box-sizing: border-box;
+}
+
+#news2 .slider .item .flex .title{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #15161A;
+    text-align: right;
+}
+
+#news2 .slider .item .flex .desc{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #868686;
+    text-align: right;
+
+}
+
+#gallery{
+    padding: 40px 0;
+}
+
+#gallery .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bback{
+    background-image: url("../images/back9.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+#container{
+    background: url("../images/back1.png") left 1900px no-repeat, url("../images/back2.png") right 2200px no-repeat, url("../images/back3_.png") left 2900px no-repeat, url("../images/back3.png") right 3200px no-repeat;
+}
