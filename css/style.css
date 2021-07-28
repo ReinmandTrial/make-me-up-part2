@@ -18,6 +18,7 @@ html {
     font-weight: 300;
     font-size: 14px;
     line-height: 150%;
+    direction: rtl;
 
 	/*	
     -webkit-text-size-adjust:none;
@@ -52,4 +53,638 @@ body {
     width: 1430px;
     margin: 0 auto;
     position: relative;
+}
+
+#preheader{
+    text-align: center;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    padding: 5.5px 0;
+}
+
+header{
+    background: #FEEBE7;
+}
+
+header .header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+header .header__top .header__top-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .header__top .header__top-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.usermenu-right {
+    margin-left: 80px;
+}
+.usermenu-right a.cart{
+    margin-left: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+.usermenu-right a.cart span{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.8279px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #000000;
+    background: #FFFFFF;
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -25px;
+    top: -20px;
+}
+
+.usermenu-left {
+    margin-right: 80px;
+}
+.usermenu-left a.search{
+    margin-right: 30px;
+}
+
+.header__top-left .phones span{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #1B1B1B;
+}
+
+.header__top-left .phones a{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #1B1B1B;
+    margin-right: 24px;
+}
+
+.header__top{
+    border-bottom: 1px solid #FFFFFF;;
+}
+
+.header__bottom{
+    padding: 25px 0;
+}
+
+.header__bottom ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__bottom ul li{
+
+}
+
+.header__bottom ul li a{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#banner .slide__item{
+    height: 606px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#banner{
+    position: relative;
+    background: #FCF8F7;
+}
+
+#banner .socials{
+    position: absolute;
+    left: 3.3%;
+    bottom: 20.4%;
+}
+
+#banner .socials a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 90px;
+    margin-top: 16px;
+}
+
+#banner .slide__item .block{
+    margin-left: 50%;
+    margin-right: 12.7%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#banner .slide__item .block .title{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 51.7174px;
+    line-height: 134.88%;
+    text-transform: uppercase;
+    color: #1B1B1B;
+}
+
+#banner .slide__item .block .atitle{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 87.4028px;
+    line-height: 128px;
+    text-transform: uppercase;
+    color: #D93D4F;
+}
+
+#banner .slide__item .block .price{
+    margin-bottom: 30px;
+}
+
+#banner .slide__item .block .price .old{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 35px;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: #15161A;
+    display: inline-block;
+    margin-right: 18px;
+}
+
+#banner .slide__item .block .price .new{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40.1569px;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #15161A;
+    display: inline-block;
+}
+
+#banner .slide__item .block .button__block a.button{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #1B1B1B;
+    width: 269px;
+    height: 64px;
+    border: 1px solid #1B1B1B;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_title{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 134.88%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #1B1B1B;
+    padding: 40px 0;
+}
+
+#section1{
+    padding: 40px 0;
+}
+
+#section1 .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+    height: 752px;
+}
+
+#section1 .wrapper .item{
+    width: 49.37%;
+    background: #FCF8F7;
+    position: relative;
+}
+
+#section1 .wrapper .item:nth-child(1){
+    height:277px;
+    margin-bottom: 20px;
+}
+
+#section1 .wrapper .item:nth-child(1) .image{
+    position: absolute;
+    left: 153px;
+    top: 4px;
+}
+
+#section1 .wrapper .item:nth-child(2){
+    height:452px;
+}
+
+#section1 .wrapper .item:nth-child(2) .image{
+    position: absolute;
+    left: 0;
+    top: 37px;
+}
+
+#section1 .wrapper .item:nth-child(3){
+    height:452px;
+    margin-bottom: 20px;
+}
+
+#section1 .wrapper .item:nth-child(3) .image{
+    position: absolute;
+    left: 63px;
+    top: 50px;
+}
+
+#section1 .wrapper .item:nth-child(4){
+    height:277px;
+}
+
+#section1 .wrapper .item:nth-child(4) .image{
+    position: absolute;
+    left: 34px;
+    top: 0;
+}
+
+#section1 .wrapper .item .text{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    z-index: 2;
+}
+
+#section1 .wrapper .item .text .title{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 134.88%;
+    text-align: right;
+    text-transform: uppercase;
+    color: #1B1B1B;
+}
+
+#section1 .wrapper .item .text .atitle{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 134.88%;
+    text-align: right;
+    text-transform: uppercase;
+    color: #1B1B1B;
+}
+
+#new{
+    padding: 40px 0;
+    position: relative;
+}
+
+#new .center{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#new .mainblock{
+    width: 263px;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 80px;
+}
+
+#new .mainblock .title{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #15161A;
+    margin-bottom: 35px;
+}
+
+#new .mainblock .controls{
+
+}
+
+#new .mainblock .controls .tl,#new .mainblock .controls .tr{
+    width: 62px;
+    height: 62px;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 62px;
+    border: 1px solid #ECECEC;
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+#new .slider .item{
+    width: 340px;
+    height: 466px;
+    position: relative;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#new .slider .item .item_top{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#new .slider .item .item_top span{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    z-index: 5;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #020202;
+    display: block;
+    padding: 2px 10px;
+}
+
+#new .slider .item .item_top .buttons_block{
+    position: absolute;
+    bottom: 31px;
+    left: 19px;
+    z-index: 5;
+}
+
+#new .slider .item .item_top .buttons_block a{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.06);
+    width: 62px;
+    height: 62px;
+    border-radius: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+#new .slider .item .item_top .buttons_block a:hover{
+    background: #FEEBE7;
+    box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.06);
+}
+
+#new .slider .item .producttitle{
+    padding: 20px 0 10px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 134.88%;
+    text-transform: uppercase;
+    color: #1B1B1B;
+    display: block;
+    text-align: center;
+}
+
+#new .slider .item .price{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #15161A;
+    display: block;
+    text-align: center;
+}
+
+#new .slider .item .price .old{
+    text-decoration: line-through;
+}
+
+#actions{
+    padding: 40px 0;
+}
+
+#actions .wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+#actions .wrapper .left{
+    width: 49%;
+}
+
+#actions .wrapper .right{
+    width: 49%;
+}
+#actions .wrapper .right{
+    height: 753px;
+    background-image: url("../images/adv.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#actions .wrapper .right .block{
+    position: absolute;
+    top: 82px;
+    right: 68px;
+}
+
+#actions .wrapper .right .block .p{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 94.6383px;
+    line-height: 139px;
+    text-transform: uppercase;
+    color: #D93D4F;
+    text-align: right;
+}
+
+#actions .wrapper .right .block .t{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 134.88%;
+    text-align: right;
+    text-transform: uppercase;
+    color: #1B1B1B;
+}
+
+#actions .wrapper .right .block .at{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #1B1B1B;
+}
+
+#actions .wrapper .left{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap:wrap;
+}
+
+
+
+#actions .wrapper .left .item{
+    width: 340px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+#actions .wrapper .left .item .item_top{
+    height: 297px;
+    width: 100%;
+    position: relative;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#actions .wrapper .left .item .item_top span{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    z-index: 5;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #020202;
+    display: block;
+    padding: 2px 10px;
+}
+
+#actions .wrapper .left .item .item_top .buttons_block{
+    position: absolute;
+    bottom: 31px;
+    left: 19px;
+    z-index: 5;
+}
+
+#actions .wrapper .left .item .item_top .buttons_block a{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.06);
+    width: 62px;
+    height: 62px;
+    border-radius: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+#actions .wrapper .left .item .item_top .buttons_block a:hover{
+    background: #FEEBE7;
+    box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.06);
+}
+
+#actions .wrapper .left .item .producttitle{
+    padding: 20px 0 10px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 134.88%;
+    text-transform: uppercase;
+    color: #1B1B1B;
+    display: block;
+    text-align: center;
+}
+
+#actions .wrapper .left .item .price{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #15161A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#actions .wrapper .left .item .price .old{
+    text-decoration: line-through;
+    margin-right: 10px;
 }
