@@ -4,10 +4,180 @@
         padding: 0 15px;
         box-sizing: border-box;
     }
-	
-	
+    .usermenu-right a.cart span{
+        right: -10px;
+    }
+    #actions .wrapper .left .item {
+        width: 48%;
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+    }
+    #latest .slider .item {
+        width: 23%;
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+    }
+    #news .wrapper .item {
+        width: 32%;
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+    }
+    #gallery .wrapper a.item {
+        margin: 0 3px;
+    }
+    #new .slider .item .item_top {
+        height: 50%;
+    }
+    #new .slider .item .item_top .image{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    #new .slider .item .item_top .image img{
+        width: 90%;
+        display: inline-block;
+    }
+    #latest .slider .item .item_top {
+        height: 50%;
+    }
+    #latest .slider .item .item_top .image{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    #latest .slider .item .item_top .image img{
+        width: 90%;
+        display: inline-block;
+    }
+    .usermenu-left {
+        margin-right: 20px;
+    }
+    .usermenu-right {
+        margin-left: 20px;
+    }
+    #new .slider .item {
+        height: auto;
+    }
+    #new .mainblock {
+        margin-top: unset;
+        margin-right: 20px;
+    }
+    #section1 .wrapper .item:nth-child(1) .image {
+        position: absolute;
+        left: 20px;
+        top: 4px;
+    }
 }
 
+@media all and (max-width:850px) {
+    header .header__top .header__top-right .links a{
+        display: block;
+    }
+    header .header__top .header__top-left span, header .header__top .header__top-left a{
+        display: block;
+        margin-right: 0;
+    }
+    .usermenu-left{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    header .header__top .header__top-left a.search{
+        margin-right: 25px;
+    }
+    .header__bottom ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header__bottom ul li{
+        margin: 0 10px;
+    }
+
+    #actions .wrapper .left .item .item_top {
+        height: 180px;
+    }
+    #actions .wrapper .left .item .item_top .image{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    #actions .wrapper .left .item .item_top .image img{
+        width: 90%;
+        display: inline-block;
+    }
+    #actions .wrapper .right {
+        height: 523px;
+    }
+    #actions .wrapper .right .block {
+        position: absolute;
+        top: 22px;
+        right: 18px;
+    }
+    #news .wrapper .item .flex .info {
+        padding: 12px 15px;
+        text-align: right;
+    }
+    #news2 .mainblock .title {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    #news2 .slider_wrapper {
+        width: calc(100% - 250px);
+    }
+    #latest .slider .item {
+        height: auto;
+    }
+    #new .slider_wrapper {
+        width: calc(100% - 250px);
+    }
+    #new .mainblock .title {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    #section1 .wrapper .item:nth-child(2) .image {
+        bottom: 0;
+        top: unset;
+    }
+    #section1 .wrapper .item:nth-child(4) .image {
+        bottom: 0;
+        top: unset;
+    }
+    footer .center:first-child {
+        flex-wrap: wrap;
+    }
+    footer .col3{
+        width: 33%;
+    }
+    footer .col4{
+        width: 33%;
+    }
+    footer .col3{
+        width: 33%;
+    }
+    footer .col5{
+        width: 33%;
+    }
+    #news .wrapper .item .image img{
+        width: 100%;
+    }
+}
+@media all and (max-width:1200px) {
+    #news2 .slider .item .image {
+        height: auto;
+    }
+    #news .wrapper .item .image {
+        height: auto;
+    }
+    #news .wrapper .item .image img{
+        display: block;
+    }
+    #news2 .mainblock {
+        width: auto;
+        text-align: center;
+        margin-top: unset;
+        margin-right: 50px;
+    }
+}
 @media all and (max-width:576px) {
 #preheader,.header__bottom,.lk,.usermenu-right a.cart span{
     display: none;
@@ -232,7 +402,7 @@
     }
     #news .wrapper .item .image img{
         display: block;
-        width: auto;
+        width: 100%;
         height: 100%;
     }
     #news .wrapper .item .flex a {
