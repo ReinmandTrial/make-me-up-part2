@@ -96,6 +96,12 @@ header .header__top .header__top-right .links a{
 .usermenu-right {
     margin-left: 80px;
 }
+.usermenu-right a.lk.mobile{
+    display: none;
+}
+.header__top-left a.buter.mobile{
+    display: none;
+}
 .usermenu-right a.cart{
     margin-left: 30px;
     display: inline-block;
@@ -306,6 +312,9 @@ header .header__top .header__top-right .links a{
     padding: 40px 0;
 }
 
+#section1 .wrapper_mobile{
+    display: none;
+}
 #section1 .wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -444,7 +453,6 @@ header .header__top .header__top-right .links a{
 }
 #new .slider{
     position: relative;
-    overflow: hidden;
     direction: ltr;
     padding: 0 0 0 3px;
 }
@@ -941,7 +949,6 @@ a.button{
 
 #news2 .slider{
     position: relative;
-    overflow: hidden;
     direction: ltr;
     padding: 0 0 0 3px;
 }
@@ -1001,9 +1008,23 @@ a.button{
 }
 
 #gallery .wrapper{
+    /*
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+     */
+    position: relative;
+    direction: ltr;
+}
+
+#gallery .wrapper a.item{
+    display: block;
+    width: 300px;
+    position: relative;
+}
+#gallery .wrapper a.item img{
+    width: 100%;
 }
 
 #bback{
@@ -1224,4 +1245,24 @@ footer .col1 .search input{
     line-height: 23px;
     text-transform: uppercase;
     color: #868686;
+}
+
+.slick-dots {
+    bottom: -35px !important;
+}
+.slick-dots li.slick-active button::before {
+    opacity: .75;
+    color: #E48181 !important;
+}
+
+.buttons_block{
+    opacity: 0;
+}
+
+.item_top:hover .buttons_block{
+    opacity: 1;
+    -webkit-transition: all 0.1s ease-out 0.1s;
+    -moz-transition: all 0.1s ease-out 0.1s;
+    -o-transition: all 0.1s ease-out 0.1s;
+    transition: all 0.1s ease-out 0.1s;
 }
