@@ -407,6 +407,7 @@ header .header__top .header__top-right .links a{
     text-align: center;
     margin-top: 60px;
     margin-right: 80px;
+    flex: none;
 }
 
 #new .mainblock .title{
@@ -435,6 +436,16 @@ header .header__top .header__top-right .links a{
     border: 1px solid #ECECEC;
     margin: 0 6px;
     cursor: pointer;
+}
+
+
+#new .slider_wrapper{
+    width: calc(100% - 343px);
+}
+#new .slider{
+    position: relative;
+    overflow: hidden;
+    direction: ltr;
 }
 
 #new .slider .item{
@@ -927,6 +938,11 @@ a.button{
     width: calc(100% - 390px);
 }
 
+#news2 .slider{
+    position: relative;
+    overflow: hidden;
+    direction: ltr;
+}
 #news2 .slider .item{
     width: 335px;
     border: 1px solid #ECECEC;
@@ -936,7 +952,7 @@ a.button{
     margin-left: 10px;
 }
 #news2 .slider .item:last-child{
-    margin-left: 0;
+    /*margin-left: 0;*/
 }
 
 #news2 .slider .item img{

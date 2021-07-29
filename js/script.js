@@ -1,5 +1,50 @@
 $(document).ready(function(){
 
+    $('#new .slider_wrapper .slider').slick({
+        dots: false,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows:false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            }
+        ]
+    });
+    $('#new .mainblock .tl').click(function(){
+        $('#new .slider_wrapper .slider').slick('slickPrev');
+    });
+    $('#new .mainblock .tr').click(function(){
+        $('#new .slider_wrapper .slider').slick('slickNext');
+    });
+    $('#news2 .slider_wrapper .slider').slick({
+        dots: false,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows:false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            }
+        ]
+    });
+    $('#news2 .mainblock .tl').click(function(){
+        $('#news2 .slider_wrapper .slider').slick('slickPrev');
+    });
+    $('#news2 .mainblock .tr').click(function(){
+        $('#news2 .slider_wrapper .slider').slick('slickNext');
+    });
+
 });
 
 /*
