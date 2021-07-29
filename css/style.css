@@ -446,6 +446,7 @@ header .header__top .header__top-right .links a{
     position: relative;
     overflow: hidden;
     direction: ltr;
+    padding: 0 0 0 3px;
 }
 
 #new .slider .item{
@@ -942,6 +943,7 @@ a.button{
     position: relative;
     overflow: hidden;
     direction: ltr;
+    padding: 0 0 0 3px;
 }
 #news2 .slider .item{
     width: 335px;
